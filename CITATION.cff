@@ -6,6 +6,8 @@ version: 0.1.0
 authors:
   - family-names: Kline
     given-names: Jeffery
+repository-code: "https://github.com/jeff-kline/regularly-varying-mass-counts"
+url: "https://github.com/jeff-kline/regularly-varying-mass-counts"
 license: GPL-3.0-only
 abstract: >-
   A paper and release repository on the cylinder operator of a tree of

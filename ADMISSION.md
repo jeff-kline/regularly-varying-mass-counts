@@ -65,19 +65,19 @@ accept them.
 
 | Check | Status | Evidence or residual |
 |---|---|---|
-| Reproduction | PENDING | clean-extraction rebuild at freeze |
-| Artifact integrity | PENDING | `MANIFEST.sha256` at freeze |
-| Hygiene | PARTIAL | private-path scan clean (ledger L12). README rendered with `gh api markdown` (GFM) on 2026-11-14: 60 inline and 1 display math elements, matching the source, and no `$` outside math. Rerun after final edits |
+| Reproduction | PASS (local candidate) | `git archive` extraction of the candidate commit, with the PDF deleted, rebuilt by `make paper` to a byte-identical PDF (SHA-256 prefix `161b8f638267b85c`); `make check`, `make verify` and the manifest pass in the extraction. Repeat on the frozen commit |
+| Artifact integrity | PASS (local candidate) | deterministic PDF (fixed `SOURCE_DATE_EPOCH`); `MANIFEST.sha256` covers every tracked file; bundled release audit run in candidate state |
+| Hygiene | PASS | tracked tree scanned for local paths and private data (ledger L12). README rendered with `gh api markdown` (GFM) on 2026-11-14: 61 inline and 1 display math elements, matching the source, and no `$` outside math |
 | Stewardship | PASS | `CORRECTIONS.md` |
 | Tag, archive, DOI, metadata | NOT STARTED | require the author's authorization |
 
-**Admission verdict:** not yet issued.
+**Admission verdict:** NOT YET ADMITTED. The candidate is local only; no tag, archive or DOI exists.
 
 ## External actions
 
 | Action | Owner | Status |
 |---|---|---|
-| Local candidate commit | root agent | not yet |
+| Local candidate commit | root agent | done 2026-11-14 (local only; noreply identity) |
 | Private GitHub repository and push | author authorization | not authorized |
 | Public visibility; Zenodo enablement | author | not authorized |
 | Annotated tag `v0.1.0`, GitHub Release | author authorization | not authorized |
