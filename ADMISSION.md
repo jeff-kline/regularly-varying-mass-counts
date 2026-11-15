@@ -15,8 +15,8 @@ certificate, or proof of global novelty.
 release preparation and the read-only prior-art scans, and chose the
 repository name `regularly-varying-mass-counts`. On 2026-11-14 the author
 authorized a further novelty search and step 1: a private GitHub
-repository with `main` pushed. No public visibility, tag, release, DOI or
-site change has been authorized. Each external action needs the author's
+repository with `main` pushed. The author then instructed making it
+public. No tag, release, DOI or site change has been authorized. Each external action needs the author's
 explicit authorization.
 
 ## Principal claim
@@ -83,7 +83,8 @@ accept them.
 |---|---|---|
 | Local candidate commit | root agent | done 2026-11-14 (local only; noreply identity) |
 | Private GitHub repository and push | author authorization | done 2026-11-14: `jeff-kline/regularly-varying-mass-counts` (private); `main` pushed at `7766b62`; issues on, wiki off |
-| Public visibility; Zenodo enablement | author | not authorized |
+| Public visibility; secret scanning and push protection | author authorization | done 2026-11-14 (made public at the author's instruction; security settings match the predecessor) |
+| Zenodo enablement before the Release | author, in the Zenodo portal | pending |
 | Annotated tag `v0.1.0`, GitHub Release | author authorization | not authorized |
 | Public-site listing; living-metadata update | author authorization (admission bundle) | not authorized |
 
