@@ -35,6 +35,16 @@ gives a different sufficient condition: a convergent census of subtree types.
 
 ## Version history
 
-### 0.1.0 — in preparation
+### 0.1.0 — released 2026-11-14
 
-- Not yet tagged or archived.
+- Tag `v0.1.0` at commit `51417a3`; version DOI
+  [`10.5281/zenodo.24237731`](https://doi.org/10.5281/zenodo.24237731), concept DOI `10.5281/zenodo.24237730`. Zenodo
+  records the publication date as 2026-11-15 (UTC).
+- The tagged snapshot retains its prepublication “release candidate” wording
+  and carries no DOI, because the DOI was minted by Zenodo after the GitHub
+  Release. The living repository and paper now carry the active DOI; the
+  archived files were not changed.
+- Release preparation, before the tag: the dispositions of all audit findings
+  are in `audit/LEDGER.md`. They include added hypotheses in the abstract and
+  introduction, and credits to Arcozzi–Rochberg–Sawyer, Naimark–Solomyak,
+  Rastegaev, Clément–Flajolet–Vallée and the earlier paper's Proposition B.1.

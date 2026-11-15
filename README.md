@@ -2,11 +2,17 @@
 
 Jeffery Kline
 
-**Version 0.1.0 — release candidate, not yet published.** No public tag or
-DOI exists yet. Admission under the project's
+[![Version DOI: 10.5281/zenodo.24237731](https://zenodo.org/badge/DOI/10.5281/zenodo.24237731.svg)](https://doi.org/10.5281/zenodo.24237731)
+
+**Status: version 0.1.0 admitted 2026-11-14.** The immutable release is
+[`v0.1.0`](https://github.com/jeff-kline/regularly-varying-mass-counts/releases/tag/v0.1.0),
+archived at version DOI [`10.5281/zenodo.24237731`](https://doi.org/10.5281/zenodo.24237731). The concept DOI
+[`10.5281/zenodo.24237730`](https://doi.org/10.5281/zenodo.24237730) resolves to the latest version; cite the
+version DOI for reproducibility. Admission under the project's
 [public research standard](https://jeff-kline.github.io/posts/research-program/index.html)
-is a release decision, not peer review or a correctness certificate. The
-release checklist is [ADMISSION.md](ADMISSION.md).
+is a release decision, not peer review or a correctness certificate; see
+[ADMISSION.md](ADMISSION.md). The tagged snapshot retains its prepublication
+“release candidate” wording because the DOI did not exist when it was made.
 
 The paper is [paper/main.pdf](paper/main.pdf); its source is
 [paper/main.tex](paper/main.tex). This is a sequel to
@@ -217,8 +223,9 @@ recomputation of the figure and table.
 
 ## Citation
 
-No permanent identifier exists yet. A version DOI will be added after
-publication. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+Jeffery Kline, *Regularly varying mass counts and oscillating spectral
+asymptotics*, version 0.1.0 (2026), [doi:10.5281/zenodo.24237731](https://doi.org/10.5281/zenodo.24237731).
+Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## License and corrections
 

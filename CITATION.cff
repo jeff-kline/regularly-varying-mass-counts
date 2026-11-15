@@ -9,6 +9,15 @@ authors:
 repository-code: "https://github.com/jeff-kline/regularly-varying-mass-counts"
 url: "https://github.com/jeff-kline/regularly-varying-mass-counts"
 license: GPL-3.0-only
+doi: 10.5281/zenodo.24237731
+date-released: 2026-11-15
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24237731
+    description: "Version DOI for release 0.1.0"
+  - type: doi
+    value: 10.5281/zenodo.24237730
+    description: "Concept DOI; resolves to the latest version"
 abstract: >-
   A paper and release repository on the cylinder operator of a tree of
   intervals, which integrates a function over each interval and adds the
