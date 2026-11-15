@@ -67,7 +67,7 @@ accept them.
 
 | Check | Status | Evidence or residual |
 |---|---|---|
-| Reproduction | PASS (local candidate) | `git archive` extraction of the candidate commit, with the PDF deleted, rebuilt by `make paper` to a byte-identical PDF (SHA-256 prefix `161b8f638267b85c`); `make check`, `make verify` and the manifest pass in the extraction. Repeat on the frozen commit |
+| Reproduction | PASS (local candidate) | `git archive` extraction of the candidate commit, with the PDF deleted, rebuilt by `make paper` to a byte-identical PDF (SHA-256 prefix `701ed90c3ebf6ce0`); `make check`, `make verify` and the manifest pass in the extraction. Repeat on the frozen commit |
 | Artifact integrity | PASS (local candidate) | deterministic PDF (fixed `SOURCE_DATE_EPOCH`); `MANIFEST.sha256` covers every tracked file; bundled release audit run in candidate state |
 | Hygiene | PASS | tracked tree scanned for local paths and private data (ledger L12). README rendered with `gh api markdown` (GFM) on 2026-11-14: 62 inline and 1 display math elements, matching the source, and no `$` outside math |
 | Stewardship | PASS | `CORRECTIONS.md` |
