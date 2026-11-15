@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite Version 0.1.0 of this research repository."
+title: "Regularly varying mass counts and oscillating spectral asymptotics"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Kline
+    given-names: Jeffery
+license: GPL-3.0-only
+abstract: >-
+  A paper and release repository on the cylinder operator of a tree of
+  intervals, which integrates a function over each interval and adds the
+  integral back on that interval. For every child-ratio cap theta in (0,1),
+  a bounded-branching tree has interval count D(t) ~ C/t, but the number of
+  eigenvalues above t divided by D(t) approaches a continuous nonconstant
+  periodic function of log(1/t); the largest possible oscillation over such
+  trees is of order theta. Conversely, when D(t) ~ C/t, the eigenvalue count
+  is asymptotic to D(t), with no ratio condition beyond a uniform bound below
+  one, if the rescaled subtrees are determined by types in a compact space
+  whose distribution among the intervals longer than t converges, under a
+  continuity condition. The tree of continued-fraction cylinders, whose types
+  range over a continuum, satisfies this, with both counts asymptotic to
+  6 log 2/(pi^2 t).
+keywords:
+  - spectral asymptotics
+  - compact operators
+  - trees
+  - regular variation
+  - renewal theory
+  - continued fractions
+references:
+  - type: software
+    title: "The eigenvalue decay of the limiting kernel of a sparse Mertens matrix"
+    version: 0.1.0
+    doi: 10.5281/zenodo.23621017
+    authors:
+      - family-names: Kline
+        given-names: Jeffery
