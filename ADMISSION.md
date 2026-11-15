@@ -1,6 +1,6 @@
 # Admission record
 
-**Current state:** DRAFT (candidate preparation)
+**Current state:** CANDIDATE (frozen for tagging `v0.1.0`)
 
 **Version:** 0.1.0
 
@@ -16,7 +16,9 @@ release preparation and the read-only prior-art scans, and chose the
 repository name `regularly-varying-mass-counts`. On 2026-11-14 the author
 authorized a further novelty search and step 1: a private GitHub
 repository with `main` pushed. The author then instructed making it
-public. No tag, release, DOI or site change has been authorized. Each external action needs the author's
+public, enabled the repository in Zenodo, and authorized the tag `v0.1.0`
+and the GitHub Release. The site listing and admitted-status update are
+not yet authorized. Each external action needs the author's
 explicit authorization.
 
 ## Principal claim
@@ -45,8 +47,9 @@ continuation, or certified extrema of $Q$ is claimed.
 | Inaccessible or unperformed searches visible | PASS | MathSciNet (subscription) and Google Scholar (blocked) logged NOT PERFORMED; zbMATH Open searched by API, with failures logged |
 | Fast-follow scan within 7 days of tagging | PASS for 2026-11-14 | must be repeated if tagging happens after 2026-11-21 |
 
-**P1 gate:** PARTIAL; the residuals are named. A tag requires the author to
-accept them.
+**P1 gate:** PARTIAL; the residuals are named. **The author accepted these
+named residuals on 2026-11-14** by instructing the tag after being told that
+acceptance was required.
 
 ## A1 — claim and artifact consistency
 
@@ -84,8 +87,8 @@ accept them.
 | Local candidate commit | root agent | done 2026-11-14 (local only; noreply identity) |
 | Private GitHub repository and push | author authorization | done 2026-11-14: `jeff-kline/regularly-varying-mass-counts` (private); `main` pushed at `7766b62`; issues on, wiki off |
 | Public visibility; secret scanning and push protection | author authorization | done 2026-11-14 (made public at the author's instruction; security settings match the predecessor) |
-| Zenodo enablement before the Release | author, in the Zenodo portal | pending |
-| Annotated tag `v0.1.0`, GitHub Release | author authorization | not authorized |
+| Zenodo enablement before the Release | author, in the Zenodo portal | done 2026-11-14; Zenodo release webhook present and active |
+| Annotated tag `v0.1.0`, GitHub Release | author authorization | authorized 2026-11-14 |
 | Public-site listing; living-metadata update | author authorization (admission bundle) | not authorized |
 
 Archive route (proposed, as for the predecessor): Zenodo GitHub integration,
