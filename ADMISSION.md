@@ -6,6 +6,8 @@
 
 **Standard:** [A Public Standard for This Work](https://jeff-kline.github.io/posts/research-program/index.html)
 
+Current verdict: NOT YET ADMITTED (local candidate; no tag, archive or DOI)
+
 Admission is a project release decision. It is not peer review, a correctness
 certificate, or proof of global novelty.
 
