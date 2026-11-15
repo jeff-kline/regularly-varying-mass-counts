@@ -12,6 +12,8 @@ independent human expert has examined the proofs.
 | 2026-11-14 | Prior art, first bounded pass (stopped when release work was paused) | process-separated AI auditor | [reports/prior-art.md](reports/prior-art.md) | PARTIAL_PAUSED |
 | 2026-11-14 | Section 9 (Theorems 9.1 and 9.2, Lemma 9.3, the "(T2) fails" paragraph) and the new prose | process-separated AI auditor, cold | [reports/proof-section9.md](reports/proof-section9.md) | math VERIFIED; prose OVERSTATED (4 must-fix) |
 | 2026-11-14 | Prior-art fast-follow scan (Zenodo, GitHub, arXiv, OpenAlex, web) | process-separated AI auditor | [reports/prior-art-scan-2026-11-14.md](reports/prior-art-scan-2026-11-14.md) | no antecedent in screened corpus |
+| 2026-11-14 | Novelty: theorem-level comparison (Carleson/Hardy/summation operators on trees, metric-tree Laplacians, ultrametric operators) | process-separated AI auditor | [reports/novelty-theorem-comparison-2026-11-14.md](reports/novelty-theorem-comparison-2026-11-14.md) | no source contains or implies R1–R3; 2 credits to add |
+| 2026-11-14 | Novelty: databases (zbMATH Open, OpenAlex, arXiv, web) | process-separated AI auditor | [reports/novelty-databases-2026-11-14.md](reports/novelty-databases-2026-11-14.md) | no antecedent in screened corpus |
 | 2026-11-14 | Claims consistency across README, paper, CITATION.cff and CORRECTIONS | process-separated AI auditor | [reports/claims-consistency.md](reports/claims-consistency.md) | PASS WITH FIXES; 1 must-fix, fixed |
 
 Earlier development audits of the counterexample are kept in the research
@@ -46,6 +48,10 @@ sharpening, documentation.
 | L17 | claims-consistency ID 13 | documentation | Paper lacked the predecessor's "Role of AI" paragraph | Fixed: added at the end of Section 10 |
 | L18 | claims-consistency ID 9 | documentation | Abstract summarizes the earlier question as dropping "the condition on the ratios" | Kept: approved abstract wording, accurate in context (drop the ratio condition without adding the profile hypotheses) |
 | L19 | claims-consistency ID 10, 15, 16 | documentation | Table's $Q^0$ range (1.19) vs $Q_4$ range (1.20) not distinguished in the caption; CORRECTIONS wording; naming boundary points | Not changed; optional |
+
+| L20 | novelty-theorem-comparison, family 1 | documentation | "We know of no standard name for $T$" is wrong: $V$ is the Arcozzi–Rochberg–Sawyer discrete Hardy operator, and $T=VV^*$; their tree condition is boundedness. The root agent checked this against the 2007 text | Fixed: Setting credits ARS 2002; README "Earlier work" |
+| L21 | novelty-theorem-comparison, family 3 | documentation | Naimark–Solomyak Example 8.1 already gives a renewal-driven periodic eigenvalue count on homogeneous metric trees. The root agent checked (8.11) in the primary text | Fixed: Section 10 and the README credit it, with the distinctions stated |
+| L22 | novelty-theorem-comparison, family 6 | sharpening | Optional sentence: difference-form ultrametric operators are Haar-diagonal, $T$ is not unless splits are balanced | Not added; recorded here |
 
 ## Release-work history
 

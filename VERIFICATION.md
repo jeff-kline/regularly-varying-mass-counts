@@ -41,8 +41,8 @@ make verify PYTHON=/abs/path/to/venv/bin/python
 shasum -a 256 -c MANIFEST.sha256
 ```
 
-`make check` (2026-11-14): `"status": "PASS"`, 24 pages, 43 labels, 103
-references, 13 bibliography entries, all 13 cited, no errors.
+`make check` (2026-11-14): `"status": "PASS"`, 25 pages, 43 labels, 103
+references, 14 bibliography entries, all 14 cited, no errors.
 
 `make verify` (2026-11-14) prints the following summary lines:
 

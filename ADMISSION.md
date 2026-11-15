@@ -36,11 +36,11 @@ continuation, or certified extrema of $Q$ is claimed.
 
 | Check | Status | Evidence or residual |
 |---|---|---|
-| Closest mechanisms and parameter families compared | PARTIAL | `audit/PRIOR-ART.md` (R1–R3). Open: a theorem-level comparison with tree Carleson/Schatten results |
+| Closest mechanisms and parameter families compared | PASS | `audit/PRIOR-ART.md` (R1–R3); theorem-level comparison in `reports/novelty-theorem-comparison-2026-11-14.md`, with Arcozzi–Rochberg–Sawyer and Naimark–Solomyak Example 8.1 now credited |
 | Obtainable primary sources checked | PARTIAL | CFV §8.3 and the Rastegaev arXiv text read; the earlier paper's Theorem A.4 and Proposition B.1 read. Kigami–Lapidus via an earlier audit's theorem check; Lapidus–van Frankenhuijsen chapter pinpoint from the table of contents |
 | Contribution types distinguished | PASS | README "What is new" and "Not new"; paper Section 10 |
 | Novelty bounded to searched corpus | PASS | "not found in the sources checked" in the README, Section 10 and `audit/PRIOR-ART.md` |
-| Inaccessible or unperformed searches visible | PASS | MathSciNet, zbMATH and Google Scholar logged NOT PERFORMED |
+| Inaccessible or unperformed searches visible | PASS | MathSciNet (subscription) and Google Scholar (blocked) logged NOT PERFORMED; zbMATH Open searched by API, with failures logged |
 | Fast-follow scan within 7 days of tagging | PASS for 2026-11-14 | must be repeated if tagging happens after 2026-11-21 |
 
 **P1 gate:** PARTIAL; the residuals are named. A tag requires the author to
@@ -69,7 +69,7 @@ accept them.
 |---|---|---|
 | Reproduction | PASS (local candidate) | `git archive` extraction of the candidate commit, with the PDF deleted, rebuilt by `make paper` to a byte-identical PDF (SHA-256 prefix `161b8f638267b85c`); `make check`, `make verify` and the manifest pass in the extraction. Repeat on the frozen commit |
 | Artifact integrity | PASS (local candidate) | deterministic PDF (fixed `SOURCE_DATE_EPOCH`); `MANIFEST.sha256` covers every tracked file; bundled release audit run in candidate state |
-| Hygiene | PASS | tracked tree scanned for local paths and private data (ledger L12). README rendered with `gh api markdown` (GFM) on 2026-11-14: 61 inline and 1 display math elements, matching the source, and no `$` outside math |
+| Hygiene | PASS | tracked tree scanned for local paths and private data (ledger L12). README rendered with `gh api markdown` (GFM) on 2026-11-14: 62 inline and 1 display math elements, matching the source, and no `$` outside math |
 | Stewardship | PASS | `CORRECTIONS.md` |
 | Tag, archive, DOI, metadata | NOT STARTED | require the author's authorization |
 

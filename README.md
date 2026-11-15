@@ -109,9 +109,11 @@ Not new:
   (Clément–Flajolet–Vallée). The mass-count asymptotic follows from
   counting coprime pairs.
 - Log-periodic leading terms of eigenvalue counts are known for
-  Laplacians on self-similar fractals (Kigami–Lapidus), and Rastegaev
-  proved that they are nonconstant for Sturm–Liouville problems with
-  arithmetically self-similar weights. What is new is that the oscillation
+  Laplacians on self-similar fractals (Kigami–Lapidus) and, by the same
+  renewal argument, for weighted Laplacians on homogeneous metric trees
+  (Naimark–Solomyak, Example 8.1). Rastegaev proved that they are
+  nonconstant for Sturm–Liouville problems with arithmetically
+  self-similar weights. What is new is that the oscillation
   appears in the eigenvalue count of a single operator whose own mass count
   has a constant leading term.
 
@@ -127,6 +129,10 @@ in the sources checked; this is not a worldwide novelty claim.
   proved the compactness, the sandwich inequality, the two transfer
   theorems and the law for stationary non-arithmetic trees, and asked
   Question 7.1, answered here.
+- **Arcozzi, Rochberg and Sawyer (2002)** studied the same synthesis
+  operator under another name: the map $x\mapsto\sum_v x_v\mathbf 1_{A_v}$
+  is their discrete Hardy operator on a tree, and their tree condition
+  characterizes when it is bounded. They do not treat its eigenvalues.
 - **Kigami and Lapidus (1993)** distinguished lattice and nonlattice
   spectral asymptotics for Laplacians on self-similar fractals. Their
   spectral scales combine energy and measure weights, so their lattice
@@ -140,11 +146,17 @@ in the sources checked; this is not a worldwide novelty claim.
 - **Clément, Flajolet and Vallée (2001)** studied the Dirichlet series of
   continued-fraction cylinder lengths, its relation to the Riemann zeta
   function, and the Gauss-map entropy.
-- **Evans–Harris–Lang (2001), Naimark–Solomyak (2000), Lifshits–Linde
-  (2011) and Bendikov–Grigor'yan–Pittet–Woess (2014)** study related
-  operators on trees and ultrametric spaces. They concern different operator
-  classes (edge weights, Hardy-type operators, hierarchical Laplacians) and
-  do not contain the results here.
+- **Naimark and Solomyak (2000)**, Example 8.1, obtained an eigenvalue
+  count of the form power times a periodic function of the logarithm for
+  weighted Laplacians on homogeneous metric trees, by the renewal theorem.
+  The operator splits into one-dimensional problems, the periodic function
+  is not shown to be nonconstant, and no comparison count is involved.
+- **Evans–Harris–Lang (2001), Lifshits–Linde (2011) and
+  Bendikov–Grigor'yan–Pittet–Woess (2014)** study other operators on trees
+  and ultrametric spaces: exact Weyl-type laws for Hardy operators on
+  metric trees with edge measures, two-sided entropy bounds for summation
+  operators, and operators diagonal in a Haar-type basis. They do not
+  contain the results here.
 
 ## Evidence and limits
 

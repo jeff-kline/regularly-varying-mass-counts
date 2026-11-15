@@ -154,8 +154,13 @@ squarefree $d$, are cylinder sets in a product space of independent
 prime selections: $A_d$ prescribes which primes up to the largest prime
 factor of $d$ are selected. Since $T=VV^*$ has the same nonzero
 eigenvalues as $V^*V$, the spectral problem for the kernel becomes a
-problem about the tree of sets and their masses alone. We know of no
-standard name for $T$ elsewhere. For independent standard Gaussians
+problem about the tree of sets and their masses alone. For a general
+tree, $Vx=\sum_vx_v\one_{A_v}$ is the discrete Hardy operator of Arcozzi,
+Rochberg and Sawyer~\cite{ARS}: identify each point with its path of sets
+in the tree, so that $Vx$ sums $x$ along the path, into $L^2$ of a measure
+on the boundary of the tree. Their tree condition
+$\sum_{w\ge v}m_w^2\le Cm_v$ characterizes when $V$ is bounded. We know of
+no earlier work on the eigenvalue asymptotics of $T=VV^*$. For independent standard Gaussians
 $g_v$, $\inner{Tf}{f}=\sum_v|\int_{A_v}f\,d\nu|^2$ is the variance of
 $\sum_vg_v\int_{A_v}f\,d\nu$, so $T$ is the covariance operator of a
 hierarchical Gaussian field. When children cover their parents, the
@@ -1586,8 +1591,16 @@ term. For continued fractions, the cylinder lengths, their Dirichlet
 series and the constant $\pi^2/(6\log2)$ are classical~\cite[Section~8.3]{CFV};
 we have not found the eigenvalue law of Theorem~\ref{thm:cf} stated
 before. That nonvanishing ratios are compatible with the law was
-already known from the stationary trees of~\cite[Prop.~B.1]{K26}. Related tree and ultrametric
-operators are studied in~\cite{EHL,NS,LL,BGPW}; we do not claim a
+already known from the stationary trees of~\cite[Prop.~B.1]{K26}.
+Naimark and Solomyak~\cite[Example~8.1]{NS} obtain, by the renewal
+theorem, an eigenvalue count of the form $\lambda^{-\delta}w(\log(1/\lambda))$
+with $w$ periodic, bounded and bounded away from zero, for weighted
+Laplacians on homogeneous metric trees. There the operator splits into
+one-dimensional problems, nonconstancy of $w$ is not asserted, and no
+comparison count is involved. Other tree and ultrametric operators are
+studied in~\cite{EHL,LL,BGPW}: exact Weyl-type laws for Hardy operators
+on metric trees with edge measures, two-sided entropy bounds for summation
+operators, and operators diagonal in a Haar-type basis. We do not claim a
 priority result across these different operator classes. The new
 counterexamples answer the precise question of~\cite{K26} and show
 that no fixed child-ratio bound suffices. The harmonic cancellation
@@ -1674,6 +1687,12 @@ Lemma~\ref{lem:nonzero-small}.
 
 \begin{thebibliography}{99}
 \raggedright
+\bibitem{ARS}
+N.~Arcozzi, R.~Rochberg and E.~Sawyer,
+\emph{Carleson measures for analytic Besov spaces},
+Rev.\ Mat.\ Iberoamericana \textbf{18} (2002), 443--510.
+\href{https://doi.org/10.4171/RMI/326}{doi:10.4171/RMI/326}.
+
 \bibitem{BGPW}
 A.~Bendikov, A.~Grigor'yan, Ch.~Pittet and W.~Woess,
 \emph{Isotropic Markov semigroups on ultra-metric spaces},
